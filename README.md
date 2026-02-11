@@ -20,3 +20,16 @@ Files to create:
 
 Backend: server.py (rewrite)
 Frontend: App.js, App.css, index.css + components
+
+Features Implemented:
+
+Pace Evolution Chart: Interactive line chart showing pace (min/km) trends over time with average reference line
+Heart Rate Charts: Dual-line chart tracking both Max HR and Average HR evolution
+
+Activity Dashboard:
+
+Summary cards (total activities, distance, avg pace, avg HR), filterable activity list with sport type badges
+
+Filters: Date range picker (calendar), sport type dropdown (Run, Ride, Swim, Walk)
+Strava Integration: OAuth token management with auto-refresh
+
