@@ -1,3 +1,4 @@
 # 2 Python Scripts
 - absolute values
-- heart rate versus pace (efficiency)
+- ❤️ Heart rate vs pace (efficiency)
+  It's just a Linear Regression
