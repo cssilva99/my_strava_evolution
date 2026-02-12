@@ -3,9 +3,9 @@ import requests
 url = "https://www.strava.com/oauth/token"
 
 payload = {
-    'client_id': '197799',
-    'client_secret': '400bf474554a593eb99d25f1b2019e08aed53dc9',
-    'code': 'c160121923cc3977a7602c4fecf8f2b0cb904d56',
+    'client_id': '',
+    'client_secret': '',
+    'code': '',
     'grant_type': 'authorization_code'
 }
 
@@ -14,9 +14,9 @@ response = requests.post(url, data=payload)
 if response.status_status == 200:
     data = response.json()
     print("✅ Sucesso!")
-    print(f"Novo Access Token: {data['access_token']}")
-    print(f"Novo Refresh Token: {data['refresh_token']}")
-    print(f"Expira em: {data['expires_at']}")
+    print(f"New Access Token: {data['access_token']}")
+    print(f"New Refresh Token: {data['refresh_token']}")
+    print(f"Expires in : {data['expires_at']}")
 else:
-    print("❌ Erro ao gerar token:")
+    print("❌ Error generating token:")
     print(response.json())
