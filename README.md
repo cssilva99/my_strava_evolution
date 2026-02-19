@@ -39,3 +39,8 @@ Note to self : Should I do a PCA Analysis to separate variables (I am happier be
 
 I would like GitHub Actions to execute these 2 Python scripts, and "ingress" the linear regression chart as a .png or .html to the GCP Artifact Registry -> 0,5 GB 
 (500 MB) of Free Storage
+
+Configure Cleanup Policies :
+
+- Keep the last 2 versions of a chatt
+- Exclude charts that have already been download (egress)
