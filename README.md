@@ -7,7 +7,7 @@ The library Matplotlib has been used to output the Linear Regressions by each of
 - running 🏃‍♀️
 - riding 🚴‍♀️ 
 
-   (Thriathlon)
+ (Thriathlon)
 
 ## Script 1 :
 - Absolute Values
