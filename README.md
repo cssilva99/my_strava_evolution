@@ -11,11 +11,11 @@ The library Matplotlib has been used to output the Linear Regressions by each of
 
 ## Script 1 :
 - Absolute Values
-  (Raw from Strava)
+- Raw from Strava
   
 ## Script 2 :
 - Heart Rate vs Pace
-  (Efficiency)
+- Efficiency :
   
   It's a Linear Regression
 
