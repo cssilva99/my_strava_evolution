@@ -10,10 +10,13 @@ The library Matplotlib has been used to output the Linear Regressions by each of
 (Thriathlon)
 
 ## Script 1 :
-- Absolute Values (raw from Strava)
+- Absolute Values
+  (Raw from Strava)
   
 ## Script 2 :
-- Heart Rate vs Pace (Efficiency)
+- Heart Rate vs Pace
+  (Efficiency)
+  
   It's a Linear Regression
 
 # To be implemented
