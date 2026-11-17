@@ -1,0 +1,32 @@
+name: Conect to Strava
+
+on:
+  schedule:
+    # The CRON below executes everyday at midnight
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Permite executar manualmente a partir do GitHub
+
+jobs:
+  strava-task:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Repository Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Executes Strava Pythin Script
+        env:
+          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+        run: |
+          python scripts/strava_connect.py
