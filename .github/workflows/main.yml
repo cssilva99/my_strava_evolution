@@ -1,4 +1,4 @@
-name: Conect to Strava
+name: Connect to Strava
 
 on:
   schedule:
